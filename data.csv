@@ -1,0 +1,7 @@
+productID,productName,location,description,prize
+player1,Basketball,./images/LeBronJames.webp,"He recently broke the scoring record, making him the GOAT.",200
+player2,Basketball,./images/Curry.jpg,He is the best shooter of all time,150
+player3,Basketball,./images/luka.jpg,He is a star player on the Mavs.,167
+player4,Football,./images/jalenhurts.jpg,Jalen Hurts is the starting quarterback for the Philadelphia Eagles. He will be playing in the upcoming Superbowl 57.,192
+player5,Football,./images/patrickmahomes.jpg,Patrick Mahomes is the starting quarterback for the Kansas City Chiefs. He will be playing in the upcoming Superbowl 57.,200
+player6,Football,./images/justinjefferson.jpg,Justin Jefferson a starting wide reciever for the Minnesota Vikings. He is a young talent.,190

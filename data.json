@@ -1,0 +1,48 @@
+{
+    "Basketball": [
+        {
+            "productId": "player1",
+            "productName": "Basketball",
+            "location": "./images/LeBronJames.webp",
+            "description": "\"He recently broke the scoring record making him the GOAT.\"",
+            "prize": "200"
+        },
+        {
+            "productId": "player2",
+            "productName": "Basketball",
+            "location": "./images/Curry.jpg",
+            "description": "He is the best shooter of all time",
+            "prize": "150"
+        },
+        {
+            "productId": "player3",
+            "productName": "Basketball",
+            "location": "./images/luka.jpg",
+            "description": "He is a star player on the Mavs.",
+            "prize": "167"
+        }
+    ],
+    "Football": [
+        {
+            "productId": "player4",
+            "productName": "Football",
+            "location": "./images/jalenhurts.jpg",
+            "description": "Jalen Hurts is the starting quarterback for the Philadelphia Eagles. He will be playing in the upcoming Superbowl 57.",
+            "prize": "192"
+        },
+        {
+            "productId": "player5",
+            "productName": "Football",
+            "location": "./images/patrickmahomes.jpg",
+            "description": "Patrick Mahomes is the starting quarterback for the Kansas City Chiefs. He will be playing in the upcoming Superbowl 57.",
+            "prize": "200"
+        },
+        {
+            "productId": "player6",
+            "productName": "Football",
+            "location": "./images/justinjefferson.jpg",
+            "description": "Justin Jefferson a starting wide reciever for the Minnesota Vikings. He is a young talent.",
+            "prize": "190"
+        }
+    ]
+}
