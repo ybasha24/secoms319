@@ -98,12 +98,12 @@
 }
 
 #temp{
-  font-size: 7em;
+  font-size: 2em;
   line-height: 1;
   text-align: center;
   display: block;
   padding-left: 30px;
-  margin-bottom: 24px;
+  /* margin-bottom: 24px; */
 }
 
 #humidity{
@@ -119,15 +119,3 @@
   text-align: center;
 }
 
-/* .lukaBackground{
-  background-image: url("./images/luka.jpg");
-  text-align: center;
-  background-position: center;
-  /* background-attachment: fixed;   */
-/* }
-
-.curryBackground{
-  background-image: url("./images/Curry.jpg");
-  text-align: center;
-  background-position: center;
-  /* background-attachment: fixed;   */

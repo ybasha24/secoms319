@@ -26,8 +26,25 @@ document.addEventListener("DOMContentLoaded", function () {
 function appendData2(data){
     
     for (let dataElement in data){
+        var time;
         console.log(dataElement);//tempf
         console.log(data[dataElement]);//60.8
+
+        if(dataElement == 'temp_f'){
+            let add = document.getElementById("temp");
+            add.innerHTML = "Temperature is " + data[dataElement] + "&#8457;";
+        }
+        if(dataElement == 'humid'){
+            let add2 = document.getElementById("humidity");
+            add2.innerHTML = "Humidity is " + data[dataElement] + "%";
+        }
+        if(dataElement == 'time'){
+            time = data[dataElement];
+        }
+        if(dataElement == 'date'){
+            let date = document.getElementById("h1");
+            date.innerHTML = data[dataElement] + " at " + time;
+        }
     }
 }
 
