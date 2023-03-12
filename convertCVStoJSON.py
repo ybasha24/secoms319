@@ -46,8 +46,8 @@ listFootball = []
 
 # fields in the sample file
 productType = ['Basketball','Football']
-fieldsBasketball =['productId', 'productName', 'location', 'description','prize']
-fieldsFootball = ['productId', 'productName', 'location', 'description','prize']
+fieldsBasketball =['productId', 'productName', 'location', 'description','price','playerName']
+fieldsFootball = ['productId', 'productName', 'location', 'description','price','playerName']
 
 
 with open(filename) as catalog:
