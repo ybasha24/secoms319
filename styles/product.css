@@ -97,6 +97,15 @@
    */
 }
 
+.temp{
+  font-size: 7em;
+  line-height: 1;
+  text-align: center;
+  display: block;
+  padding-left: 30px;
+  margin-bottom: 24px;
+}
+
 /* .lukaBackground{
   background-image: url("./images/luka.jpg");
   text-align: center;
