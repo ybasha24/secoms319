@@ -30,6 +30,9 @@ function appendData(data) {
         for (let element of data[productName]) {
 
             let addThis = document.getElementById(element["productId"]);
+            if(addThis == null){
+                addThis = document.createElement('div');
+            }
             let image = document.createElement('img');
             image.src = element["location"];
             image.width = "300";
