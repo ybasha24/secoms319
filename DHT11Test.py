@@ -11,12 +11,15 @@ while True:
         temperature_f = temperature_c * (9/5) + 32
         humidity = dhtDevice.humidity
         
+        # variables for the date and time
         time1 = datetime.now()
         mydate = time1.strftime("\"%d/%m/%Y\"")
         mytime = time1.strftime("\"%H:%M:%S\"")
         
+        #data variable that formats a string into json format for all attrubiutes
         data = "{\"temp_f\":\""+str(temperature_f)+"\",\n \"temp_c\":\""+str(temperature_c)+"\",\n \"humid\":\""+str(humidity)+"\",\n \"time\":"+str(mytime)+",\n \"date\":"+str(mydate)+"}"
         
+        #writes the data into a json file. While script is running, data will constantly be overwritten to display up to date measurements.
         file = open("datajson.json", 'w')
         file.write(data)
         file.close()

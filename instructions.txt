@@ -1,0 +1,6 @@
+To properly run sensor on raspberry pi.
+1.) Copy all files into a chosen directory in the raspberry pi.
+2.) run "python3 DHT11Test.py" in terminal on raspberry pi to start collection of measurements.
+3.) run "python3 -m http.server 8888" on a seperate terminal on raspberry pi to run a server.
+4.) open the raspberry pi browser and search  "http://localhost:8888/index.html" or just "http://localhost:8888"
+5.) Website should be running, and raspberry tab should display information, keep refreshing to update measurements.
