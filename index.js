@@ -10,6 +10,17 @@ document.addEventListener("DOMContentLoaded", function () {
         .catch(function (err) {
             console.log('error:' + err);
         })
+
+    fetch('datajson.json')
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (data) {
+            appendData2(data);
+        })
+        .catch(function (err) {
+            console.log('error:' + err);
+        })
 });
 
 
@@ -18,7 +29,7 @@ function appendData(data) {
         for (let element of data[productName]) {
 
             let addThis = document.getElementById(element["productId"]);
-            if(addThis == null){
+            if (addThis == null) {
                 addThis = document.createElement('div');
             }
             let image = document.createElement('img');
