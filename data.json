@@ -4,7 +4,7 @@
             "productId": "player1",
             "productName": "Basketball",
             "location": "./images/LeBronJames.webp",
-            "description": "He recently broke the scoring record making him the GOAT.",
+            "description": "He is considered to be the Greatest Player of All Time by many. Collect his card today!",
             "price": "200",
             "playerName": "LeBron James"
         },
@@ -12,7 +12,7 @@
             "productId": "player2",
             "productName": "Basketball",
             "location": "./images/Curry.jpg",
-            "description": "He is the best shooter of all time",
+            "description": "He is considered to be the one of the greatest shooters of all time in NBA history. Collect his card today!",
             "price": "150",
             "playerName": "Stephen Curry"
         },
@@ -20,7 +20,7 @@
             "productId": "player3",
             "productName": "Basketball",
             "location": "./images/luka.jpg",
-            "description": "He is a star player on the Mavs.",
+            "description": "He is a young star player on the Mavs that will continue to dominate the NBA for awhile. Collect his card today!",
             "price": "167",
             "playerName": "Luka Doncic"
         }
@@ -30,7 +30,7 @@
             "productId": "player4",
             "productName": "Football",
             "location": "./images/jalenhurts.jpg",
-            "description": "Jalen Hurts is the starting quarterback for the Philadelphia Eagles. He will be playing in the upcoming Superbowl 57.",
+            "description": "Jalen Hurts is the starting quarterback for the Philadelphia Eagles and led them to Superbowl 57. Collect his card today!",
             "price": "192",
             "playerName": "Jalen Hurts"
         },
@@ -38,7 +38,7 @@
             "productId": "player5",
             "productName": "Football",
             "location": "./images/patrickmahomes.jpg",
-            "description": "Patrick Mahomes is the starting quarterback for the Kansas City Chiefs. He will be playing in the upcoming Superbowl 57.",
+            "description": "Patrick Mahomes is the starting quarterback for the Kansas City Chiefs and led his team to a Superbowl 57 victory. Collect his card today!",
             "price": "200",
             "playerName": "Patrick Mahomes"
         },
@@ -46,7 +46,7 @@
             "productId": "player6",
             "productName": "Football",
             "location": "./images/justinjefferson.jpg",
-            "description": "Justin Jefferson a starting wide reciever for the Minnesota Vikings. He is a young talent.",
+            "description": "Justin Jefferson a starting wide reciever for the Minnesota Vikings. He is a young talent. Collect his card today!",
             "price": "190",
             "playerName": "Justin Jefferson"
         }

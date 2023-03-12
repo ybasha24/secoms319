@@ -13,18 +13,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-
-// fetch('data.json')
-//     .then(function (response) {
-//         return response.json();
-//     })
-//     .then(function (data) {
-//         appendData(data);
-//     })
-//     .catch(function (err) {
-//         console.log('error:' + err);
-//     })
-
 function appendData(data) {
     for (let productName in data) {
         for (let element of data[productName]) {
