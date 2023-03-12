@@ -97,7 +97,7 @@
    */
 }
 
-.temp{
+#temp{
   font-size: 7em;
   line-height: 1;
   text-align: center;
@@ -106,7 +106,7 @@
   margin-bottom: 24px;
 }
 
-.humidity{
+#humidity{
   font-size: 2em;
   color: lighten(#313E48, 20%);
   text-align: center;
@@ -114,7 +114,7 @@
   font-weight: 100;
 }
 
-.h1{
+#h1{
   font-size: 2em;
   text-align: center;
 }

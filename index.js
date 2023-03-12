@@ -23,6 +23,14 @@ document.addEventListener("DOMContentLoaded", function () {
         })
 });
 
+function appendData2(data){
+    
+    for (let dataElement in data){
+        console.log(dataElement);//tempf
+        console.log(data[dataElement]);//60.8
+    }
+}
+
 
 function appendData(data) {
     for (let productName in data) {
