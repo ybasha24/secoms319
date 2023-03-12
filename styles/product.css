@@ -114,6 +114,11 @@
   font-weight: 100;
 }
 
+.h1{
+  font-size: 2em;
+  text-align: center;
+}
+
 /* .lukaBackground{
   background-image: url("./images/luka.jpg");
   text-align: center;
