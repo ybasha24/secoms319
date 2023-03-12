@@ -106,6 +106,14 @@
   margin-bottom: 24px;
 }
 
+.humidity{
+  font-size: 2em;
+  color: lighten(#313E48, 20%);
+  text-align: center;
+  display: block;
+  font-weight: 100;
+}
+
 /* .lukaBackground{
   background-image: url("./images/luka.jpg");
   text-align: center;
